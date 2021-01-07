@@ -1,4 +1,5 @@
 def time
-  time= time.now
+  time= Time.now
   time
+  binding.pry
 end

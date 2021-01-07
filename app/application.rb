@@ -1,13 +1,12 @@
+require 'pry'
 class Application
 
   #def call(env)
 #     resp = Rack::Response.new
 binding.pry
-def time
-  time = Time.now
-binding.pry
-end
-end
+
+
+#end
 #     num_1 = Kernel.rand(1..20)
 #     num_2 = Kernel.rand(1..20)
 #     num_3 = Kernel.rand(1..20)
@@ -21,4 +20,4 @@ end
 #     resp.finish
 #   end
 #
-# end
+ end

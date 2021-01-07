@@ -1,3 +1,4 @@
+require 'pry'
 def time
   time= Time.now
   time

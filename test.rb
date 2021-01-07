@@ -1,6 +1,6 @@
 require 'pry'
 def time
-  time= Time.now
-  time
-  binding.pry
-end
+time = Time.now
+ puts "Current Time : " + time.inspect
+ end
+

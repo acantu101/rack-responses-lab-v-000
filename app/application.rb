@@ -2,6 +2,7 @@ class Application
 
   #def call(env)
 #     resp = Rack::Response.new
+binding.pry
 def time
   time = Time.now
 binding.pry
